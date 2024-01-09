@@ -7,5 +7,4 @@ import java.lang.annotation.Target;
 
 @Retention(RetentionPolicy.SOURCE)
 @Target({ElementType.METHOD})
-public @interface SideEffectIgnore {
-}
+public @interface SideEffectIgnore {}
