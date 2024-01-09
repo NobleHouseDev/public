@@ -1,15 +1,23 @@
 package dev.noblehouse.side_effect;
 
-import com.google.errorprone.CompilationTestHelper;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.JUnit4;
+
+import com.google.errorprone.CompilationTestHelper;
 
 @RunWith(JUnit4.class)
 public class SideEffectCheckerTest {
 
   private final CompilationTestHelper helper =
       CompilationTestHelper.newInstance(SideEffectChecker.class, getClass());
+
+
+
+
+
+
+
 
   @Test
   public void callsImpureFunction() {
